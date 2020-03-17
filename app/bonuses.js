@@ -2,5 +2,6 @@
 let str = "team number 2"
 
 function camelCase(str) {
-
+str = str.replace(/\s/g, '')
+return str
 }
