@@ -76,7 +76,6 @@ function isFever(temp) {
 }
 
 //5. Write a function that takes in a car object, if it is not moving then return true
-// TODO 
 let myCar = {
     make: "Ford",
     model: "Mustang",
@@ -85,7 +84,7 @@ let myCar = {
 }
 
 function isStopped(car) {
-    if(myCar.moving = false) {
+    if(car.moving == false) {
     return true  
     } else {
         return false
